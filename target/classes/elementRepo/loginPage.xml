@@ -1,0 +1,8 @@
+<Elements>
+
+    <Element name="usernameXpath" locatorType="xpath" locatorValue="//input[@type='email']"/>
+    <Element name="usernameNext" locatorType="xpath" locatorValue="//span[contains(text(),'Next')]"/>
+    <Element name="passwordXpath" locatorType="xpath" locatorValue="//input[@type='password']"/>
+
+    <Element name="passwordNext" locatorType="xpath" locatorValue="//span[contains(@class,'RveJvd snByac')]"/>
+</Elements>
