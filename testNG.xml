@@ -1,0 +1,9 @@
+<suite name="SeleniumAutomationGmail">
+    <test name="testngTest">
+        <classes>
+            <class name="testscripts.LoginTest" />
+            <class name="testscripts.ComposeMailTest" />
+            <class name="testscripts.LogoutTest"/>
+        </classes>
+    </test>
+</suite>

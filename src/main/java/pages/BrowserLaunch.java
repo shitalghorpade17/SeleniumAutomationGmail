@@ -7,8 +7,8 @@ import org.openqa.selenium.firefox.FirefoxDriver;
 /**
  * Created by Forgeahead-Shital on 9/5/2017.
  */
-public class BrowserLaunch {
-    public static WebDriver driver;
+public class BrowserLaunch extends BaseClassPage {
+  //  public static WebDriver driver;
 
     public static WebDriver getDriver(){
         if(driver==null){

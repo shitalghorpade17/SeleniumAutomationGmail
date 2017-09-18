@@ -2,15 +2,16 @@ package pages;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.Keys;
+import utils.PropertyFileReader;
 
 import java.util.Properties;
 
 /**
  * Created by Forgeahead-Shital on 9/7/2017.
  */
-public class ComposeMailPage {
+public class ComposeMailPage extends BaseClassPage {
 
-    Properties configdata = PropertyFileReader.readfile();
+  //  Properties configdata = PropertyFileReader.readfile();
     public void composemail(){
         try {
             Thread.sleep(5000);

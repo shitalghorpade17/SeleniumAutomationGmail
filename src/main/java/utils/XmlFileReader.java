@@ -17,6 +17,7 @@ public class XmlFileReader
 {
       public static Map<String,String> readXmlFile(String filename) {
           Map<String, String> hashMap = new HashMap<String, String>();
+
           try {
               DocumentBuilderFactory dbfactory = DocumentBuilderFactory.newInstance();
               DocumentBuilder documentBuilder = dbfactory.newDocumentBuilder();

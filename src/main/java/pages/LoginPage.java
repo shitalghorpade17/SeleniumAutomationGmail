@@ -1,9 +1,8 @@
 package pages;
 
-import org.openqa.selenium.By;
+import org.openqa.selenium.WebElement;
 import utils.Controller;
-
-import java.util.Properties;
+import org.testng.annotations.*;
 
 /**
  * Created by Forgeahead-Shital on 9/5/2017.
@@ -11,6 +10,7 @@ import java.util.Properties;
 public class LoginPage extends BaseClassPage {
 
     public static void login(String username, String password) {
+
         try{
             Controller.getWebelement(map.get("usernameXpath")).sendKeys(username);
 
@@ -25,6 +25,9 @@ public class LoginPage extends BaseClassPage {
             Thread.sleep(1000);
             Controller.getWebelement(map.get("passwordNext")).click();
             //   BrowserLaunch.getDriver().findElement(By.xpath(configdata.getProperty("nextAfterPassword"))).click();
+         //   WebElement googleImage= Controller.getWebelement(map.get("googleImage"));
+
+            WebElement resultGmailText= Controller.getWebelement(map.get("gmailText"));
 
 
         }catch (Exception e){
